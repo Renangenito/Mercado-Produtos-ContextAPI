@@ -1,9 +1,9 @@
-import Carrinho from "pages/Carrinho";
 import Feira from "pages/Feira";
 import Login from "pages/Login";
+import Carrinho from "pages/Carrinho";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { UsuarioProvider } from '../src/common/context/Usuario';
-import { CarrinhoProvider } from '../src/common/context/Carrinho';
+import { UsuarioProvider } from 'common/context/Usuario';
+import { CarrinhoProvider } from 'common/context/Carrinho';
 import React from 'react';
 function Router() {
 
