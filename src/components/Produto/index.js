@@ -6,11 +6,11 @@ import RemoveIcon from '@material-ui/icons/Remove';
 import { useCarrinhoContext } from '../../common/context/Carrinho'
 
 
-function Produto({ nome, foto, id, valor, unidade}) {
+function Produto({ nome, foto, id, valor, unidade }) {
 
   const {carrinho, adicionaProduto, removerProduto} = useCarrinhoContext();
   const produtoNoCarrinho = carrinho.find(itemDoCarrinho => itemDoCarrinho.id === id);
- 
+  
 
   return (
       <Container>
